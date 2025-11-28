@@ -12,7 +12,7 @@ The .fastq files from Illumina outputs were processed using the [nf-core/rnaseq 
 The `nfcore_rnaseq_run` contains a Slurm script (`run_nfcore_rnaseq.sh`) for execution of the nfcore/rnaseq pipeline. Read processing with this pipeline was carried out at the [Johns Hopkins University DISCOVERY HPC](https://researchit.jhu.edu/research-hpc/) cluster. The sample sheet used as input for nfcore/rnaseq can be found at `data/eye_rnaseq_nfcore_samplesheet.csv`. The reference human genome was obtained from https://www.ncbi.nlm.nih.gov/datasets/genome/GCF_000001405.40/ 
 
 ## Gene expression matrix processing
-The `code/step1_process_nfcore_rnaseq_data.R` is an R script that takes the Salmon quantifications resulting from the nfcore/rnaseq pipeline and process them to create a DESeq object for downstream analyses.
+The `code/step1_process_nfcore_rnaseq_data.R` file contains an R script that processes Salmon quantifications resulting from the nfcore/rnaseq pipeline to create a DESeq object for downstream analyses. Filtering of low expression genes and batch correction via surrogate variable analysis (SVA) was achieved with the code in `code/step2_process_nfcore_rnaseq_data.R`.
 
 ## Differential gene expression
 
