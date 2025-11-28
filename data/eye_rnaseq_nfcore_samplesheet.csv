@@ -1,0 +1,13 @@
+sample,fastq_1,fastq_2,strandedness
+corn_endo_1,data/raw_rnaseq_reads/SRR24003360_1.fastq.gz,,unstranded
+corn_endo_2,data/raw_rnaseq_reads/SRR24003361_1.fastq.gz,,unstranded
+corn_endo_3,data/raw_rnaseq_reads/SRR24003362_1.fastq.gz,,unstranded
+corn_endo_4,data/raw_rnaseq_reads/SRR24003363_1.fastq.gz,,unstranded
+lens_epi_1,data/raw_rnaseq_reads/Human_AnteriorLensEpithelium1_1-210102OD_S15.fastq.gz,,unstranded
+lens_epi_2,data/raw_rnaseq_reads/Human_AnteriorLensEpithelium2_2-210102OI_S16.fastq.gz,,unstranded
+lens_epi_3,data/raw_rnaseq_reads/Human_AnteriorLensEpithelium3_4-210104OI_S17.fastq.gz,,unstranded
+lens_epi_4,data/raw_rnaseq_reads/Human_AnteriorLensEpithelium4_5-210100OD_S18.fastq.gz,,unstranded
+naiv_endo_1,data/raw_rnaseq_reads/DRR228774_1.fastq.gz,data/raw_rnaseq_reads/DRR228774_2.fastq.gz,auto
+naiv_endo_2,data/raw_rnaseq_reads/DRR228775_1.fastq.gz,data/raw_rnaseq_reads/DRR228775_2.fastq.gz,auto
+naiv_endo_3,data/raw_rnaseq_reads/DRR228776_1.fastq.gz,data/raw_rnaseq_reads/DRR228776_2.fastq.gz,auto
+naiv_endo_4,data/raw_rnaseq_reads/DRR228780_1.fastq.gz,data/raw_rnaseq_reads/DRR228780_2.fastq.gz,auto
